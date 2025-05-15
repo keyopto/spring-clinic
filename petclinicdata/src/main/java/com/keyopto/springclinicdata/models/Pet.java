@@ -3,25 +3,17 @@ package com.keyopto.springclinicdata.models;
 import com.keyopto.springclinicdata.enums.PetType;
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet extends BaseEntity {
 
-  private Long id;
   private PetType type;
   private Owner owner;
   private LocalDate birthDate;
 
   public Pet(PetType type, Owner owner, LocalDate birthDate) {
+    super();
     this.type = type;
     this.owner = owner;
     this.birthDate = birthDate;
-  }
-
-  public Long getId() {
-    return id;
-  }
-
-  public void setId(Long id) {
-    this.id = id;
   }
 
   public PetType getType() {
