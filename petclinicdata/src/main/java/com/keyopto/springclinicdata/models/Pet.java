@@ -1,6 +1,6 @@
-package com.keyopto.springclinic.models;
+package com.keyopto.springclinicdata.models;
 
-import com.keyopto.springclinic.enums.PetType;
+import com.keyopto.springclinicdata.enums.PetType;
 import java.time.LocalDate;
 
 public class Pet {

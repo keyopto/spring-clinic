@@ -1,4 +1,4 @@
-package com.keyopto.springclinic;
+package com.keyopto.springclinicweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringclinicApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringclinicApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(SpringclinicApplication.class, args);
+  }
 }

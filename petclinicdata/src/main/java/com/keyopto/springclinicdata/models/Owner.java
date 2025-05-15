@@ -1,4 +1,4 @@
-package com.keyopto.springclinic.models;
+package com.keyopto.springclinicdata.models;
 
 public class Owner extends Person {
 
