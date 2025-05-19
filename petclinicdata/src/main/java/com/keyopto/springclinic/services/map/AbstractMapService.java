@@ -1,4 +1,4 @@
-package com.keyopto.springclinicdata.services.map;
+package com.keyopto.springclinic.services.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

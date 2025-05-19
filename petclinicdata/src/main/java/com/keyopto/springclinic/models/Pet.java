@@ -1,6 +1,6 @@
-package com.keyopto.springclinicdata.models;
+package com.keyopto.springclinic.models;
 
-import com.keyopto.springclinicdata.enums.PetType;
+import com.keyopto.springclinic.enums.PetType;
 import java.time.LocalDate;
 
 public class Pet extends BaseEntity {

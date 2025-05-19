@@ -1,4 +1,4 @@
-package com.keyopto.springclinicdata.models;
+package com.keyopto.springclinic.models;
 
 public class Vet extends Person {
 

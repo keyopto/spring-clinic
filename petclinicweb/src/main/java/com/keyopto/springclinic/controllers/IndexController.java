@@ -1,4 +1,4 @@
-package com.keyopto.springclinicweb.controllers;
+package com.keyopto.springclinic.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

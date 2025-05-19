@@ -1,8 +1,10 @@
-package com.keyopto.springclinicdata.services.map;
+package com.keyopto.springclinic.services.map;
 
-import com.keyopto.springclinicdata.models.Pet;
-import com.keyopto.springclinicdata.services.CrudService;
+import com.keyopto.springclinic.models.Pet;
+import com.keyopto.springclinic.services.CrudService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PetMapService extends AbstractMapService<Long, Pet> implements CrudService<Long, Pet> {
 
   @Override

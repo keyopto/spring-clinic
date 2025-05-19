@@ -1,4 +1,4 @@
-package com.keyopto.springclinicdata.services;
+package com.keyopto.springclinic.services;
 
 import java.util.Set;
 
